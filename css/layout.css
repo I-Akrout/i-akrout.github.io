@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/back.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -215,9 +215,13 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
+   /* width: 120px;
    height: 120px;
-   border-radius: 100%;
+   border-radius: 10%; */
+   border: 3px groove rgba(195,108,54,0.3);
+   -webkit-box-shadow: 0px 10px 40px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 40px -18px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 40px -18px rgba(0,0,0,0.75);
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -1011,4 +1015,39 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+.article{
+   min-height: 200px;
+}
+
+.article .article-title a{
+   font-size: 18px;
+   color: #313131 !important;
+}
+.article .article-team li {
+   display: inline;
+   margin-right: 10px;
+}
+.article .article-team .author{
+   text-decoration: underline ;
+}
+.article .article-team ul{
+   margin-top: 0px;
+}
+.article .article-buttons li {
+   display: inline;
+   margin-right :20px;
+   border: 1px groove #4d4d4d;
+   border-radius: 5%;
+   padding :5px;
+}
+
+.article .article-buttons li a{
+   font-size: 18px;
+   color: #4d4d4d !important;
+}
+.article .article-buttons li span{
+margin-left: 5px;
+}
 
